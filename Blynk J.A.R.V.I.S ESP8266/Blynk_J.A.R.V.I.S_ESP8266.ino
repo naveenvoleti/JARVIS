@@ -70,8 +70,8 @@ char auth[] = "your auth token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-//char ssid[] = "Teck Team";
-//char pass[] = "teckteams";
+//char ssid[] = "your network ssid";
+//char pass[] = "your password";
 
 /*BLYNK_WRITE(V0) {
   int ledValue = param.asInt();
