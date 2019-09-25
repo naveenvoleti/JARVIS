@@ -4,8 +4,8 @@
 #include <ArduinoOTA.h>
 
 #ifndef STASSID
-#define STASSID "Active"
-#define STAPSK  "8500230841"
+#define STASSID "your network id"
+#define STAPSK  "your password"
 #endif
 
 const char* ssid = STASSID;
@@ -66,7 +66,7 @@ int hall = 112;
 int kitchenLed = 103;
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "94ae456d0d7f4d179af66d0dae0313c9";
+char auth[] = "your auth token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
